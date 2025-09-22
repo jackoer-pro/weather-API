@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 import csv
 from collections import Counter
-API_KEY="7c4e7a172b86493062bf2eea903e0250"
+API_KEY=""
 import os
 def reset_file():
     if os.path.exists("weather_search_history.csv"):
